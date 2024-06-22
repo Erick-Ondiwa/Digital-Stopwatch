@@ -1,0 +1,83 @@
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  font-family: arial, sans-serif;
+  background-color: hsla(0, 0%, 0%, 0.5);
+
+}
+h1{
+  margin: 0;
+  margin-top: 20px;
+  font-size: 2em;
+  font-weight: bold;
+
+}
+.clockContents{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  border: 2px solid black;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.clockContents p{
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: monospace;
+}
+.buttons{
+  transition: background-color 0.5 ease;
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+.start{
+  transition: background-color 0.5s ease;
+  margin-right: 8px;
+  width: 80px;
+  font-size: 1.2rem;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(120, 97%, 46%);
+  cursor: pointer;
+}
+.start:hover{
+  background-color: hsla(120, 100%, 50%, 0.52);
+}
+.stop{
+  transition: background-color 0.5s ease;
+  margin-right: 8px;
+  width: 80px;
+  font-size: 1.2rem;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(0, 100%, 46%);
+  cursor: pointer;
+}
+.stop:hover{
+  background-color: hsla(0, 100%, 46%, 0.52);
+}
+.reset{
+  width: 80px;
+  font-size: 1.2rem;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(240, 100%, 54%);
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+.reset:hover{
+  background-color: hsla(240, 100%, 54%, 0.52);
+}
